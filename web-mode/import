@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: import
+# key: import
+# --
+{% import "${1:macros.html}" as ${2:${1:$(car (split-string yas-text "\\\\."))}} %}

@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: block
+# key: block
+# --
+{% block $1 %}
+  $2
+{% endblock $1 %}

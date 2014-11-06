@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: extends
+# key: extends
+# --
+{% extends "${1:master.html}" %}

@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: macro
+# key: macro
+# --
+{% macro ${1:funcname}($2) -%}
+  $3
+{%- endmacro%}
